@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+ #div_1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 60vh;
+      
+    }
+ #title{
+ color: #30D040; margin-top: 2%; text-align: center;
+ }
+ video{
+ max-width: 50%;}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 25px;
+}
+
+a:hover {
+  background-color: green;
+  color: black;
+}
+
+.previous {
+  background-color: #30D040;
+  color: white ;
+  margin-right: 3%;
+}
+
+.next {
+  background-color: #30D040;
+  color: white;
+  margin-left: 3%;
+}
+
+.round {
+  border-radius: 50%;
+  max-height: 70px;
+  text-decoration: none;
+
+}
+.col-3{
+	border-right: 1px solid black;
+}
+.col-3 input{
+	margin-top: 3%;
+	text-align: center;;
+}
+.col-4,.col-3{
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	
+}
+.col-crit,.col-point{
+	border-top: 1px solid black;
+}
+
+form{
+	margin-bottom: 5%;
+}
